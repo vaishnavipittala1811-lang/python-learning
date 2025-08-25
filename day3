@@ -1,0 +1,90 @@
+name = input("Enter your name: ")
+print("Welcome", name," to Python learning!")
+output:Enter your name: vaishu
+Welcome vaishu  to Python learning!
+#add of two numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print("Sum =", a + b)
+#check age aglibilty
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote.")
+
+#Take a number → print its square and cube.
+a=2
+b=3
+square=a**2
+print(square)
+cube=b**3
+print(cube)
+#Take marks in 3 subjects → print the total and average.
+# Taking marks of 3 subjects
+m1 = int(input("Enter marks of Subject 1: "))
+m2 = int(input("Enter marks of Subject 2: "))
+m3 = int(input("Enter marks of Subject 3: "))
+
+# Total and Average
+total = m1 + m2 + m3
+average = total / 3
+
+print(f"Total Marks = {total}")
+print(f"Average Marks = {average}")
+# Celsius to Fahrenheit conversion
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+
+print(f"{celsius}°C = {fahrenheit}°F")
+output:
+Enter temperature in Celsius: 23
+23.0°C = 73.4°F
+
+length and breadth of a rectangle → print area and perimeter.
+length=float(input("enter the length of the rectangle"))
+breadth=float(input("enter the breadth of the rectangle"))
+area=length*breadth
+paramiter=2*length*breadth
+print("area of rectangle",area)
+print("paramiterof rectangle",paramiter)
+ouput:
+enter the length of the rectangle3
+enter the breadth of the rectangle4
+area of rectangle 12.0
+paramiterof rectangle 24.0
+output:
+enter the length of the rectangle3
+enter the breadth of the rectangle4
+area of rectangle 12.0
+paramiterof rectangle 24.0
+#Circle area and circumference
+radius=float(input("enter the radius"))
+area=3.14*radius*radius
+circumference = 2 * 3.14159 * radius
+
+print("Area of circle =", area)
+print("Circumference of circle =", circumference)
+output:
+enter the radius5
+Area of circle = 78.5
+Circumference of circle = 31.4159
+
+=== Code Execution Successful ===
+#Take time in minutes → convert it into hours and minutes.
+minutes = int(input("Enter time in minutes: "))
+hours = minutes // 60
+remaining_minutes = minutes % 60
+
+print("Time =", hours, "hours and", remaining_minutes, "minutes")
+ouput:Enter time in minutes: 70
+Time = 1 hours and 10 minutes
+#Take days → convert into years, weeks, and days.
+days=int(input("enter the number of days"))
+years=days//365
+weeks=(days%365)//7
+remaining_days = (days % 365) % 7
+
+print("Years =", years)
+print("Weeks =", weeks)
+print("Days =", remaining_days)
